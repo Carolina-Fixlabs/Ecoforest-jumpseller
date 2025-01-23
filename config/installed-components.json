@@ -1,0 +1,3324 @@
+{
+  "header": {
+    "type": "header",
+    "placement": "top",
+    "identifier": "",
+    "visibility": true,
+    "options": {
+      "version": "v2",
+      "width": "default",
+      "fixed": true,
+      "border": true,
+      "categories": true,
+      "categories_display": "both",
+      "categories_title": "Categorías",
+      "categories_icon": "ph ph-list-bullets",
+      "logo": {
+        "url": "https://assets.jumpseller.com/store/ecoforestry/themes/817231/settings/6ac40867c3e062a39b8f/imagen_2025-01-17_152644833.png",
+        "alt": ""
+      },
+      "logo_mobile": {
+        "url": "",
+        "alt": ""
+      },
+      "logo_height": 56,
+      "logo_height_mobile": 40,
+      "items_uppercase": false,
+      "weight": 400,
+      "actions_position": "logo-area",
+      "show_social": false,
+      "bundle_color": "default"
+    },
+    "children": [
+      {
+        "property": "header-desktop",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "width": "grid",
+          "border": true,
+          "spacing": false,
+          "alignment": "start",
+          "custom_bundle_color": true,
+          "bundle_color": "system-4",
+          "event": "hover",
+          "submenu": "megamenu"
+        },
+        "children": []
+      },
+      {
+        "property": "header-cart",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "icon": false,
+          "actions": "checkout",
+          "actions_text": "Los costos de envío serán calculados al momento de pagar."
+        },
+        "children": []
+      },
+      {
+        "property": "top-bar",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "width": "grid",
+          "fixed": true,
+          "autoplay": true,
+          "autoplay_speed": 3000,
+          "bundle_color": "system-1"
+        },
+        "children": [
+          {
+            "property": "top-bar-slides",
+            "identifier": "",
+            "visibility": true,
+            "options": {
+              "icon": "",
+              "text": "Multiservicios Ecoforest",
+              "link": null,
+              "link_text": "",
+              "link_external": false
+            },
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "type": "footer",
+    "placement": "bottom",
+    "identifier": "",
+    "visibility": true,
+    "options": {
+      "width": "default",
+      "align_desktop": "text-md-start",
+      "align_mobile": "text-start",
+      "payment_methods": true,
+      "bank_transfer_payment": true,
+      "store_payments": false,
+      "store_payments_options": false,
+      "partners": [],
+      "titles_uppercase": false,
+      "titles_underline": false,
+      "bundle_color": "system-1"
+    },
+    "children": [
+      {
+        "property": "footer-about",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "column_width": "auto",
+          "logo": {
+            "url": "https://assets.jumpseller.com/store/ecoforestry/themes/817231/settings/95e0558788c1c29ae3fc/logo%20ecoforestry%20blanco.png",
+            "alt": ""
+          },
+          "logo_height": 54,
+          "description": "Servicio de limpieza de terrenos con maquinaria de trituración",
+          "social": false
+        },
+        "children": []
+      },
+      {
+        "property": "footer-menu-1",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "column_width": "auto",
+          "title": "Categorías"
+        },
+        "children": []
+      },
+      {
+        "property": "footer-menu-2",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "column_width": "auto",
+          "title": "Información"
+        },
+        "children": []
+      },
+      {
+        "property": "footer-contact-information",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "column_width": "auto",
+          "title": "Contáctanos",
+          "show_email": true,
+          "email_type": "contact",
+          "show_whatsapp": true,
+          "show_phone": true,
+          "show_address": false
+        },
+        "children": []
+      }
+    ]
+  },
+  "slider": {
+    "type": "slider",
+    "placement": "middle",
+    "identifier": "",
+    "visibility": true,
+    "options": {
+      "content_type": "content",
+      "width": "100%",
+      "height": "medium",
+      "autoplay": false,
+      "autoplay_speed": 3000,
+      "show_arrows": true,
+      "show_arrows_hover": false,
+      "show_dots": true,
+      "margin_top": 0,
+      "margin_bottom": 48,
+      "bundle_color": "default",
+      "animate": true,
+      "animate_type": "fade-up",
+      "animate_repeat": false,
+      "animate_delay": 50
+    },
+    "children": [
+      {
+        "property": "slides",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "image_desktop": {
+            "url": "https://assets.jumpseller.com/store/ecoforestry/themes/817231/settings/cc047137059de0122e66/IMG_0450.JPG",
+            "alt": ""
+          },
+          "image_mobile": {
+            "url": "",
+            "alt": ""
+          },
+          "link": "catalogo",
+          "link_text": "Explorar Maquinaria",
+          "link_external": false,
+          "link_button": true,
+          "link_outline": false,
+          "link_arrow": true,
+          "subtitle": "Maquinaria confiable para tus proyectos",
+          "title": "Ofrecemos arriendo y venta de equipos especializados para construcción y limpieza de terrenos",
+          "description": "",
+          "align_desktop": "text-md-center",
+          "align_mobile": "text-center",
+          "position_x": "center",
+          "position_y_desktop": "center",
+          "position_y_mobile": "center",
+          "image_overlay": 50,
+          "position_image_x": "center",
+          "position_image_y": "center",
+          "bundle_color": "bundle-a1666e02787eb"
+        },
+        "children": []
+      },
+      {
+        "property": "slides",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "image_desktop": {
+            "url": "https://assets.jumpseller.com/store/ecoforestry/themes/817231/settings/391dbc823fefea4d3775/IMG_6569.JPG",
+            "alt": ""
+          },
+          "image_mobile": {
+            "url": "",
+            "alt": ""
+          },
+          "link": "/",
+          "link_text": "Conoce Nuestros servicios",
+          "link_external": false,
+          "link_button": true,
+          "link_outline": false,
+          "link_arrow": true,
+          "subtitle": "Limpieza de terrenos eficiente y profesional",
+          "title": "Utilizamos maquinaria de trituración para resultados rápidos y efectivos en la zona sur de Chile.",
+          "description": "",
+          "align_desktop": "text-md-start",
+          "align_mobile": "text-start",
+          "position_x": "start",
+          "position_y_desktop": "center",
+          "position_y_mobile": "center",
+          "image_overlay": 50,
+          "position_image_x": "center",
+          "position_image_y": "center",
+          "bundle_color": "bundle-a1666e02787eb"
+        },
+        "children": []
+      },
+      {
+        "property": "slides",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "image_desktop": {
+            "url": "https://assets.jumpseller.com/store/ecoforestry/themes/817231/settings/6d67910db88dd8d5a43d/IMG_0637.JPG",
+            "alt": ""
+          },
+          "image_mobile": {
+            "url": "",
+            "alt": ""
+          },
+          "link": "/",
+          "link_text": "Contáctanos Hoy",
+          "link_external": false,
+          "link_button": true,
+          "link_outline": false,
+          "link_arrow": true,
+          "subtitle": "Estamos donde nos necesitas",
+          "title": "Operamos en Puerto Montt, Puerto Varas, Llanquihue, Frutillar, Purranque, Los Muermos y Osorno",
+          "description": "",
+          "align_desktop": "text-md-end",
+          "align_mobile": "text-end",
+          "position_x": "end",
+          "position_y_desktop": "center",
+          "position_y_mobile": "center",
+          "image_overlay": 50,
+          "position_image_x": "center",
+          "position_image_y": "center",
+          "bundle_color": "bundle-a1666e02787eb"
+        },
+        "children": []
+      }
+    ]
+  },
+  "trust-bar": {
+    "type": "trust-bar",
+    "placement": "middle",
+    "identifier": "",
+    "visibility": true,
+    "options": {
+      "display": "carousel",
+      "columns_desktop": "4",
+      "columns_mobile": "2",
+      "alignment": "start",
+      "enable_icons": true,
+      "card": false,
+      "card_border": true,
+      "card_border_opacity": 10,
+      "card_bundle_color": "system-1",
+      "autoplay": true,
+      "autoplay_speed": 3000,
+      "show_arrows": false,
+      "show_arrows_hover": false,
+      "show_dots": false,
+      "margin_top": 32,
+      "margin_bottom": 32,
+      "bundle_color": "bundle-d0c81328ba9fc",
+      "animate": true,
+      "animate_type": "fade-up",
+      "animate_repeat": false,
+      "animate_delay": 50
+    },
+    "children": [
+      {
+        "property": "trust-blocks",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "icon": "ph ph-truck",
+          "title": "Rapidez Garantizada",
+          "text": "Realizamos cada servicio de manera ágil y eficiente.",
+          "link": null,
+          "link_text": "Leer más",
+          "link_arrow": true,
+          "link_external": false
+        },
+        "children": []
+      },
+      {
+        "property": "trust-blocks",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "icon": "ph ph-arrows-counter-clockwise",
+          "title": "Versatilidad en Servicios",
+          "text": "Ofrecemos soluciones adaptadas a tus necesidades.",
+          "link": null,
+          "link_text": "Leer más",
+          "link_arrow": true,
+          "link_external": false
+        },
+        "children": []
+      },
+      {
+        "property": "trust-blocks",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "icon": "ph ph-handshake",
+          "title": "Transparencia",
+          "text": "Sin cargos ocultos ni sorpresas inesperadas.",
+          "link": null,
+          "link_text": "Leer más",
+          "link_arrow": true,
+          "link_external": false
+        },
+        "children": []
+      },
+      {
+        "property": "trust-blocks",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "icon": "ph ph-pencil-ruler",
+          "title": "Ajustes a Medida",
+          "text": " Calculamos con precisión tu espacio para un servicio justo.",
+          "link": null,
+          "link_text": "",
+          "link_arrow": true,
+          "link_external": false
+        },
+        "children": []
+      }
+    ]
+  },
+  "banners": {
+    "type": "banners",
+    "placement": "middle",
+    "identifier": "",
+    "visibility": true,
+    "options": {
+      "display": "grid",
+      "content_type": "content",
+      "ratio": "landscape",
+      "columns_desktop": "3",
+      "columns_mobile": "2",
+      "heading": false,
+      "heading_subtitle": "",
+      "heading_title": "Título de la Sección",
+      "heading_description": "",
+      "heading_link": null,
+      "heading_link_text": "Leer más",
+      "autoplay": true,
+      "autoplay_speed": 4000,
+      "show_arrows": true,
+      "show_arrows_hover": false,
+      "show_dots": true,
+      "margin_top": 48,
+      "margin_bottom": 48,
+      "bundle_color": "default",
+      "animate": false,
+      "animate_type": "fade-up",
+      "animate_repeat": false,
+      "animate_delay": 50
+    },
+    "children": [
+      {
+        "property": "banners",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "image_desktop": {
+            "url": "https://assets.jumpseller.com/store/ecoforestry/themes/817231/settings/7beedae671af3095d62a/IMG_0450.JPG",
+            "alt": ""
+          },
+          "image_mobile": {
+            "url": "",
+            "alt": ""
+          },
+          "link": null,
+          "link_text": "Leer más",
+          "link_external": false,
+          "link_button": true,
+          "link_outline": false,
+          "link_arrow": true,
+          "subtitle": "",
+          "title": "Limpieza de Terrenos",
+          "position_x": "center",
+          "position_y": "center",
+          "image_overlay": 30,
+          "position_image_x": "center",
+          "position_image_y": "center",
+          "bundle_color": "bundle-a1666e02787eb"
+        },
+        "children": []
+      },
+      {
+        "property": "banners",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "image_desktop": {
+            "url": "https://assets.jumpseller.com/store/ecoforestry/themes/817231/settings/e905b9143c3d13deb2f1/IMG_0656.JPG",
+            "alt": ""
+          },
+          "image_mobile": {
+            "url": "",
+            "alt": ""
+          },
+          "link": null,
+          "link_text": "Leer más",
+          "link_external": false,
+          "link_button": true,
+          "link_outline": false,
+          "link_arrow": true,
+          "subtitle": "",
+          "title": "Arriendo de Maquinaria",
+          "position_x": "center",
+          "position_y": "center",
+          "image_overlay": 30,
+          "position_image_x": "center",
+          "position_image_y": "center",
+          "bundle_color": "bundle-a1666e02787eb"
+        },
+        "children": []
+      },
+      {
+        "property": "banners",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "image_desktop": {
+            "url": "https://assets.jumpseller.com/store/ecoforestry/themes/817231/settings/ef6cf26a97962a6fbb9b/IMG_0342.JPG",
+            "alt": ""
+          },
+          "image_mobile": {
+            "url": "",
+            "alt": ""
+          },
+          "link": null,
+          "link_text": "Leer más",
+          "link_external": false,
+          "link_button": true,
+          "link_outline": false,
+          "link_arrow": true,
+          "subtitle": "",
+          "title": "Venta e importación de equipos y aditamentos",
+          "position_x": "center",
+          "position_y": "center",
+          "image_overlay": 30,
+          "position_image_x": "center",
+          "position_image_y": "center",
+          "bundle_color": "bundle-a1666e02787eb"
+        },
+        "children": []
+      }
+    ]
+  },
+  "product-template": {
+    "type": "product-template",
+    "placement": "middle",
+    "identifier": "",
+    "visibility": true,
+    "options": {
+      "content_alignment": "start",
+      "gallery_image_format": true,
+      "gallery_image_dimension": "square",
+      "gallery_image_display": "thumb",
+      "gallery_image_size": 719,
+      "gallery_thumbs": true,
+      "gallery_thumbs_position": "bottom",
+      "gallery_zoom": true,
+      "gallery_zoom_size": 2,
+      "sticky_product_image": true,
+      "margin_top": 40,
+      "margin_bottom": 32,
+      "bundle_color": "default",
+      "animate": false,
+      "animate_type": "fade-up",
+      "animate_repeat": true,
+      "animate_delay": 50
+    },
+    "children": [
+      {
+        "property": "attributes",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "mobile_first": true,
+          "show_sku": true,
+          "show_sku_text": true,
+          "show_brand": true
+        },
+        "children": []
+      },
+      {
+        "property": "title",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "mobile_first": true,
+          "uppercase": false
+        },
+        "children": []
+      },
+      {
+        "property": "price",
+        "identifier": "",
+        "visibility": false,
+        "options": {
+          "mobile_first": false,
+          "display": "horizontal",
+          "show_discount_badge": true,
+          "show_discount_message": true
+        },
+        "children": []
+      },
+      {
+        "property": "reviews-stars",
+        "identifier": "",
+        "visibility": true,
+        "options": {},
+        "children": []
+      },
+      {
+        "property": "stock",
+        "identifier": "",
+        "visibility": true,
+        "options": {},
+        "children": []
+      },
+      {
+        "property": "form",
+        "identifier": "",
+        "visibility": true,
+        "options": {},
+        "children": []
+      },
+      {
+        "property": "wishlist",
+        "identifier": "",
+        "visibility": true,
+        "options": {},
+        "children": []
+      },
+      {
+        "property": "stock-locations",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "title": "Encuentra tu tienda preferida",
+          "button_icon": "ph ph-storefront",
+          "button_text": "Mostrar stock de ubicaciones"
+        },
+        "children": []
+      },
+      {
+        "property": "description",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "title": "Descripción",
+          "collapse": false,
+          "collapse_threshold": 160
+        },
+        "children": []
+      },
+      {
+        "property": "fields",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "title": "Detalles",
+          "display": "table"
+        },
+        "children": []
+      },
+      {
+        "property": "attachments",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "title": "Archivos"
+        },
+        "children": []
+      },
+      {
+        "property": "share",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "title": "Compartir este producto",
+          "show_facebook": true,
+          "show_twitter": true,
+          "show_whatsapp": true,
+          "show_pinterest": true,
+          "show_email": false,
+          "show_clipboard": true
+        },
+        "children": []
+      }
+    ]
+  },
+  "product-reviews": {
+    "type": "product-reviews",
+    "placement": "middle",
+    "identifier": "",
+    "visibility": true,
+    "options": {
+      "display": "grid",
+      "limit": 6,
+      "columns_desktop": "3",
+      "alignment": "start",
+      "name_filter": "full_name",
+      "autoplay": false,
+      "autoplay_speed": 4000,
+      "show_arrows": true,
+      "show_arrows_hover": false,
+      "show_dots": true,
+      "review_card": true,
+      "review_card_border": true,
+      "review_card_border_opacity": 10,
+      "review_card_bundle_color": "default",
+      "heading_subtitle": "",
+      "heading_title": "Reseñas de Productos",
+      "heading_description": "",
+      "margin_top": 48,
+      "margin_bottom": 48,
+      "bundle_color": "system-2",
+      "animate": false,
+      "animate_type": "fade-up",
+      "animate_repeat": true,
+      "animate_delay": 50
+    },
+    "children": []
+  },
+  "recommended-products": {
+    "type": "recommended-products",
+    "placement": "middle",
+    "identifier": "",
+    "visibility": true,
+    "options": {
+      "limit": 12,
+      "display": "carousel",
+      "heading": true,
+      "heading_subtitle": "",
+      "heading_title": "También podría interesarte uno de estos",
+      "heading_description": "",
+      "heading_link": null,
+      "heading_link_text": "Ver más productos",
+      "autoplay": false,
+      "autoplay_speed": 4000,
+      "show_arrows": true,
+      "show_arrows_hover": false,
+      "show_dots": true,
+      "margin_top": 48,
+      "margin_bottom": 48,
+      "bundle_color": "default",
+      "animate": false,
+      "animate_type": "fade-up",
+      "animate_repeat": true,
+      "animate_delay": 50
+    },
+    "children": []
+  },
+  "category-heading": {
+    "type": "category-heading",
+    "placement": "middle",
+    "identifier": "",
+    "visibility": true,
+    "options": {
+      "description": true,
+      "background_image": false,
+      "background_image_overlay": 50,
+      "margin_top": 32,
+      "margin_bottom": 0,
+      "bundle_color": "default",
+      "animate": false,
+      "animate_type": "fade-up",
+      "animate_repeat": true,
+      "animate_delay": 50
+    },
+    "children": []
+  },
+  "template-image": {
+    "type": "template-image",
+    "placement": "middle",
+    "identifier": "",
+    "visibility": false,
+    "options": {
+      "width": "grid",
+      "position_x": "center",
+      "margin_top": 32,
+      "margin_bottom": 32,
+      "bundle_color": "default",
+      "animate": false,
+      "animate_type": "fade-up",
+      "animate_repeat": true,
+      "animate_delay": 50
+    },
+    "children": []
+  },
+  "product-feed": {
+    "type": "product-feed",
+    "placement": "middle",
+    "identifier": "",
+    "visibility": false,
+    "options": {
+      "limit": 30,
+      "margin_top": 16,
+      "margin_bottom": 32,
+      "bundle_color": "default",
+      "animate": false,
+      "animate_type": "fade-up",
+      "animate_repeat": true,
+      "animate_delay": 50
+    },
+    "children": []
+  },
+  "category-brands-template": {
+    "type": "category-brands-template",
+    "placement": "middle",
+    "identifier": "",
+    "visibility": true,
+    "options": {
+      "columns_desktop": 4,
+      "show_image": true,
+      "image_dimension": "square",
+      "image_display": "thumb",
+      "link_button": true,
+      "link_text": "Ir a",
+      "link_outline": false,
+      "link_arrow": true,
+      "alignment": "start",
+      "margin_top": 48,
+      "margin_bottom": 48,
+      "bundle_color": "default",
+      "animate": false,
+      "animate_type": "fade-up",
+      "animate_repeat": true,
+      "animate_delay": 50
+    },
+    "children": []
+  },
+  "category-subcategories-template": {
+    "type": "category-subcategories-template",
+    "placement": "middle",
+    "identifier": "",
+    "visibility": true,
+    "options": {
+      "limit": 12,
+      "display": "carousel",
+      "heading_description": true,
+      "heading_link": true,
+      "heading_link_text": "Ver más productos",
+      "autoplay": false,
+      "autoplay_speed": 4000,
+      "show_arrows": true,
+      "show_arrows_hover": false,
+      "show_dots": true,
+      "margin_top": 48,
+      "margin_bottom": 48,
+      "bundle_color": "default",
+      "animate": false,
+      "animate_type": "fade-up",
+      "animate_repeat": true,
+      "animate_delay": 50
+    },
+    "children": []
+  },
+  "template-heading": {
+    "type": "template-heading",
+    "placement": "middle",
+    "identifier": "",
+    "visibility": false,
+    "options": {
+      "width": "grid",
+      "position_x": "center",
+      "show_date": false,
+      "show_description": false,
+      "description": "",
+      "background_image": false,
+      "background_image_overlay": 50,
+      "margin_top": 32,
+      "margin_bottom": 0,
+      "bundle_color": "default",
+      "animate": false,
+      "animate_type": "fade-up",
+      "animate_repeat": true,
+      "animate_delay": 50
+    },
+    "children": []
+  },
+  "page-body": {
+    "type": "page-body",
+    "placement": "middle",
+    "identifier": "",
+    "visibility": false,
+    "options": {
+      "width": "grid",
+      "alignment": "text-start",
+      "position_x": "center",
+      "margin_top": 32,
+      "margin_bottom": 32,
+      "bundle_color": "default",
+      "animate": false,
+      "animate_type": "fade-up",
+      "animate_repeat": true,
+      "animate_delay": 50
+    },
+    "children": []
+  },
+  "page-blog-template": {
+    "type": "page-blog-template",
+    "placement": "middle",
+    "identifier": "",
+    "visibility": false,
+    "options": {
+      "page_category": null,
+      "limit": 40,
+      "columns_desktop": "3",
+      "columns_mobile": "2",
+      "width": "grid",
+      "position_x": "center",
+      "margin_top": 0,
+      "margin_bottom": 48,
+      "bundle_color": "default",
+      "animate": false,
+      "animate_type": "fade-up",
+      "animate_repeat": true,
+      "animate_delay": 50
+    },
+    "children": []
+  },
+  "page-body(2)": {
+    "type": "page-body",
+    "placement": "middle",
+    "identifier": "",
+    "visibility": true,
+    "options": {
+      "width": "medium",
+      "alignment": "text-start",
+      "position_x": "center",
+      "margin_top": 32,
+      "margin_bottom": 32,
+      "bundle_color": "default",
+      "animate": false,
+      "animate_type": "fade-up",
+      "animate_repeat": true,
+      "animate_delay": 50
+    },
+    "children": []
+  },
+  "page-share": {
+    "type": "page-share",
+    "placement": "middle",
+    "identifier": "",
+    "visibility": true,
+    "options": {
+      "alignment": "center",
+      "title": "Comparte este artículo",
+      "show_facebook": true,
+      "show_twitter": true,
+      "show_whatsapp": true,
+      "show_pinterest": true,
+      "show_email": false,
+      "show_clipboard": true,
+      "margin_top": 32,
+      "margin_bottom": 40,
+      "bundle_color": "default",
+      "animate": false,
+      "animate_type": "fade-up",
+      "animate_repeat": true,
+      "animate_delay": 50
+    },
+    "children": []
+  },
+  "contact-form": {
+    "type": "contact-form",
+    "placement": "middle",
+    "identifier": "",
+    "visibility": true,
+    "options": {
+      "heading": true,
+      "heading_subtitle": "",
+      "heading_title": "Mándanos un mensaje",
+      "heading_description": "Llena todos los campos y envía tu mensaje. Te responderemos a la brevedad posible.",
+      "heading_link": null,
+      "heading_link_text": "Leer más",
+      "margin_top": 48,
+      "margin_bottom": 48,
+      "bundle_color": "default",
+      "animate": false,
+      "animate_type": "fade-up",
+      "animate_repeat": true,
+      "animate_delay": 50
+    },
+    "children": []
+  },
+  "cart-products": {
+    "type": "cart-products",
+    "placement": "middle",
+    "identifier": "",
+    "visibility": true,
+    "options": {
+      "title": "Tus productos",
+      "margin_top": 0,
+      "margin_bottom": 0
+    },
+    "children": []
+  },
+  "cart-cross-selling": {
+    "type": "cart-cross-selling",
+    "placement": "middle",
+    "identifier": "",
+    "visibility": true,
+    "options": {
+      "title": "También podría interesarte uno de estos",
+      "margin_top": 0,
+      "margin_bottom": 0
+    },
+    "children": []
+  },
+  "checkout-form": {
+    "type": "checkout-form",
+    "placement": "middle",
+    "identifier": "",
+    "visibility": true,
+    "options": {
+      "margin_top": 0,
+      "margin_bottom": 0
+    },
+    "children": []
+  },
+  "customer-heading": {
+    "type": "customer-heading",
+    "placement": "middle",
+    "identifier": "",
+    "visibility": true,
+    "options": {
+      "margin_top": 40,
+      "margin_bottom": 24,
+      "bundle_color": "default"
+    },
+    "children": []
+  },
+  "customer-tabs": {
+    "type": "customer-tabs",
+    "placement": "middle",
+    "identifier": "",
+    "visibility": true,
+    "options": {
+      "margin_top": 16,
+      "margin_bottom": 40,
+      "bundle_color": "default"
+    },
+    "children": [
+      {
+        "property": "orders",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "icon": "ph ph-list-bullets",
+          "title": "Pedidos"
+        },
+        "children": []
+      },
+      {
+        "property": "details",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "icon": "ph ph-info",
+          "title": "Detalles"
+        },
+        "children": []
+      },
+      {
+        "property": "wishlist",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "icon": "ph ph-heart",
+          "title": "Lista de favoritos"
+        },
+        "children": []
+      }
+    ]
+  },
+  "customer-login": {
+    "type": "customer-login",
+    "placement": "middle",
+    "identifier": "",
+    "visibility": true,
+    "options": {
+      "columns": "left",
+      "columns_mobile": false,
+      "register_text": "Al registrarte, podrás agilizar tu proceso de compra. Edita tus datos, añade varias direcciones, revisa y realiza un seguimiento de tus pedidos, y mucho más.",
+      "margin_top": 48,
+      "margin_bottom": 48,
+      "bundle_color": "default"
+    },
+    "children": []
+  },
+  "accordion": {
+    "type": "accordion",
+    "model": true,
+    "placement": "middle",
+    "identifier": "",
+    "visibility": true,
+    "options": {
+      "enable_width": false,
+      "width": "large",
+      "alignment": "center",
+      "collapse": true,
+      "first": false,
+      "heading": true,
+      "heading_subtitle": "",
+      "heading_title": "Título de la Sección",
+      "heading_description": "Puedes agregar un texto o una descripción para proporcionar más contexto sobre lo que trata esta sección.",
+      "heading_link": null,
+      "heading_link_text": "Leer más",
+      "margin_top": 48,
+      "margin_bottom": 48,
+      "bundle_color": "default",
+      "animate": false,
+      "animate_type": "fade-up",
+      "animate_repeat": true,
+      "animate_delay": 50
+    },
+    "children": [
+      {
+        "property": "items",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "title": "Título de ejemplo de ítem de acordeón",
+          "content": "Aquí se muestra el texto, descripción o contenido para cada ítem de acordeón que agregues.",
+          "image": {
+            "url": "",
+            "alt": ""
+          },
+          "size": 50,
+          "image_position": "after"
+        },
+        "children": []
+      },
+      {
+        "property": "items",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "title": "Título de ejemplo de ítem de acordeón",
+          "content": "Aquí se muestra el texto, descripción o contenido para cada ítem de acordeón que agregues.",
+          "image": {
+            "url": "",
+            "alt": ""
+          },
+          "size": 50,
+          "image_position": "after"
+        },
+        "children": []
+      },
+      {
+        "property": "items",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "title": "Título de ejemplo de ítem de acordeón",
+          "content": "Aquí se muestra el texto, descripción o contenido para cada ítem de acordeón que agregues.",
+          "image": {
+            "url": "",
+            "alt": ""
+          },
+          "size": 50,
+          "image_position": "after"
+        },
+        "children": []
+      }
+    ]
+  },
+  "banners(2)": {
+    "type": "banners",
+    "model": true,
+    "placement": "middle",
+    "identifier": "",
+    "visibility": true,
+    "options": {
+      "display": "carousel",
+      "content_type": "content",
+      "ratio": "square",
+      "columns_desktop": "3",
+      "columns_mobile": "2",
+      "heading": false,
+      "heading_subtitle": "",
+      "heading_title": "Título de la Sección",
+      "heading_description": "",
+      "heading_link": null,
+      "heading_link_text": "Leer más",
+      "autoplay": true,
+      "autoplay_speed": 4000,
+      "show_arrows": true,
+      "show_arrows_hover": false,
+      "show_dots": true,
+      "margin_top": 48,
+      "margin_bottom": 48,
+      "bundle_color": "default",
+      "animate": false,
+      "animate_type": "fade-up",
+      "animate_repeat": true,
+      "animate_delay": 50
+    },
+    "children": [
+      {
+        "property": "banners",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "image_desktop": {
+            "url": "",
+            "alt": ""
+          },
+          "image_mobile": {
+            "url": "",
+            "alt": ""
+          },
+          "link": null,
+          "link_text": "Leer más",
+          "link_external": false,
+          "link_button": true,
+          "link_outline": false,
+          "link_arrow": true,
+          "subtitle": "",
+          "title": "Agrega tus banners",
+          "position_x": "center",
+          "position_y": "center",
+          "image_overlay": 50,
+          "position_image_x": "center",
+          "position_image_y": "center",
+          "bundle_color": "system-1"
+        },
+        "children": []
+      },
+      {
+        "property": "banners",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "image_desktop": {
+            "url": "",
+            "alt": ""
+          },
+          "image_mobile": {
+            "url": "",
+            "alt": ""
+          },
+          "link": null,
+          "link_text": "Leer más",
+          "link_external": false,
+          "link_button": true,
+          "link_outline": false,
+          "link_arrow": true,
+          "subtitle": "",
+          "title": "Agrega tus banners",
+          "position_x": "center",
+          "position_y": "center",
+          "image_overlay": 50,
+          "position_image_x": "center",
+          "position_image_y": "center",
+          "bundle_color": "system-1"
+        },
+        "children": []
+      },
+      {
+        "property": "banners",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "image_desktop": {
+            "url": "",
+            "alt": ""
+          },
+          "image_mobile": {
+            "url": "",
+            "alt": ""
+          },
+          "link": null,
+          "link_text": "Leer más",
+          "link_external": false,
+          "link_button": true,
+          "link_outline": false,
+          "link_arrow": true,
+          "subtitle": "",
+          "title": "Agrega tus banners",
+          "position_x": "center",
+          "position_y": "center",
+          "image_overlay": 50,
+          "position_image_x": "center",
+          "position_image_y": "center",
+          "bundle_color": "system-1"
+        },
+        "children": []
+      },
+      {
+        "property": "banners",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "image_desktop": {
+            "url": "",
+            "alt": ""
+          },
+          "image_mobile": {
+            "url": "",
+            "alt": ""
+          },
+          "link": null,
+          "link_text": "Leer más",
+          "link_external": false,
+          "link_button": true,
+          "link_outline": false,
+          "link_arrow": true,
+          "subtitle": "",
+          "title": "Agrega tus banners",
+          "position_x": "center",
+          "position_y": "center",
+          "image_overlay": 50,
+          "position_image_x": "center",
+          "position_image_y": "center",
+          "bundle_color": "system-1"
+        },
+        "children": []
+      }
+    ]
+  },
+  "logo-gallery": {
+    "type": "logo-gallery",
+    "model": true,
+    "placement": "middle",
+    "identifier": "",
+    "visibility": true,
+    "options": {
+      "display": "carousel",
+      "columns_desktop": 6,
+      "columns_mobile": "2",
+      "image_dimension": "square",
+      "image_display": "thumb",
+      "heading": true,
+      "heading_subtitle": "",
+      "heading_title": "Nuestras marcas",
+      "heading_description": "",
+      "heading_link": null,
+      "heading_link_text": "Leer más",
+      "autoplay": false,
+      "autoplay_speed": 4000,
+      "show_arrows": true,
+      "show_arrows_hover": false,
+      "show_dots": true,
+      "margin_top": 48,
+      "margin_bottom": 48,
+      "bundle_color": "default",
+      "animate": false,
+      "animate_type": "fade-up",
+      "animate_repeat": true,
+      "animate_delay": 50
+    },
+    "children": [
+      {
+        "property": "logos",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "image": {
+            "url": "",
+            "alt": ""
+          },
+          "link": null,
+          "link_text": "Ver más",
+          "link_external": false
+        },
+        "children": []
+      },
+      {
+        "property": "logos",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "image": {
+            "url": "",
+            "alt": ""
+          },
+          "link": null,
+          "link_text": "Ver más",
+          "link_external": false
+        },
+        "children": []
+      },
+      {
+        "property": "logos",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "image": {
+            "url": "",
+            "alt": ""
+          },
+          "link": null,
+          "link_text": "Ver más",
+          "link_external": false
+        },
+        "children": []
+      },
+      {
+        "property": "logos",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "image": {
+            "url": "",
+            "alt": ""
+          },
+          "link": null,
+          "link_text": "Ver más",
+          "link_external": false
+        },
+        "children": []
+      },
+      {
+        "property": "logos",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "image": {
+            "url": "",
+            "alt": ""
+          },
+          "link": null,
+          "link_text": "Ver más",
+          "link_external": false
+        },
+        "children": []
+      },
+      {
+        "property": "logos",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "image": {
+            "url": "",
+            "alt": ""
+          },
+          "link": null,
+          "link_text": "Ver más",
+          "link_external": false
+        },
+        "children": []
+      }
+    ]
+  },
+  "slider(2)": {
+    "type": "slider",
+    "model": true,
+    "placement": "middle",
+    "identifier": "",
+    "visibility": true,
+    "options": {
+      "content_type": "content",
+      "width": "1920px",
+      "height": "medium",
+      "autoplay": true,
+      "autoplay_speed": 3000,
+      "show_arrows": true,
+      "show_arrows_hover": false,
+      "show_dots": true,
+      "margin_top": 0,
+      "margin_bottom": 0,
+      "bundle_color": "default",
+      "animate": false,
+      "animate_type": "fade-up",
+      "animate_repeat": true,
+      "animate_delay": 50
+    },
+    "children": [
+      {
+        "property": "slides",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "image_desktop": {
+            "url": "",
+            "alt": ""
+          },
+          "image_mobile": {
+            "url": "",
+            "alt": ""
+          },
+          "link": "/",
+          "link_text": "ir a la colección",
+          "link_external": false,
+          "link_button": true,
+          "link_outline": false,
+          "link_arrow": true,
+          "subtitle": "",
+          "title": "Bienvenidos",
+          "description": "",
+          "align_desktop": "text-md-center",
+          "align_mobile": "text-center",
+          "position_x": "center",
+          "position_y_desktop": "center",
+          "position_y_mobile": "center",
+          "image_overlay": 50,
+          "position_image_x": "center",
+          "position_image_y": "center",
+          "bundle_color": "system-1"
+        },
+        "children": []
+      },
+      {
+        "property": "slides",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "image_desktop": {
+            "url": "",
+            "alt": ""
+          },
+          "image_mobile": {
+            "url": "",
+            "alt": ""
+          },
+          "link": "/",
+          "link_text": "ir a la colección",
+          "link_external": false,
+          "link_button": true,
+          "link_outline": false,
+          "link_arrow": true,
+          "subtitle": "",
+          "title": "Nuevo diseño",
+          "description": "",
+          "align_desktop": "text-md-center",
+          "align_mobile": "text-center",
+          "position_x": "start",
+          "position_y_desktop": "center",
+          "position_y_mobile": "center",
+          "image_overlay": 50,
+          "position_image_x": "center",
+          "position_image_y": "center",
+          "bundle_color": "system-1"
+        },
+        "children": []
+      },
+      {
+        "property": "slides",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "image_desktop": {
+            "url": "",
+            "alt": ""
+          },
+          "image_mobile": {
+            "url": "",
+            "alt": ""
+          },
+          "link": "/",
+          "link_text": "ir a la colección",
+          "link_external": false,
+          "link_button": true,
+          "link_outline": false,
+          "link_arrow": true,
+          "subtitle": "",
+          "title": "Título del Slide",
+          "description": "",
+          "align_desktop": "text-md-center",
+          "align_mobile": "text-center",
+          "position_x": "end",
+          "position_y_desktop": "center",
+          "position_y_mobile": "center",
+          "image_overlay": 50,
+          "position_image_x": "center",
+          "position_image_y": "center",
+          "bundle_color": "system-1"
+        },
+        "children": []
+      }
+    ]
+  },
+  "testimonials": {
+    "type": "testimonials",
+    "model": true,
+    "placement": "middle",
+    "identifier": "",
+    "visibility": true,
+    "options": {
+      "display": "carousel",
+      "alignment": "center",
+      "columns_desktop": "2",
+      "columns_mobile": "2",
+      "heading": true,
+      "heading_subtitle": "",
+      "heading_title": "Testimonios",
+      "heading_description": "",
+      "heading_link": null,
+      "heading_link_text": "Ver más testimonios",
+      "icons": true,
+      "avatar_image_size": "small",
+      "avatar_shape": "circle",
+      "testimony_card": true,
+      "testimony_card_border": true,
+      "testimony_card_border_opacity": 10,
+      "testimony_card_bundle_color": "default",
+      "autoplay": false,
+      "autoplay_speed": 4000,
+      "show_arrows": true,
+      "show_arrows_hover": false,
+      "show_dots": true,
+      "margin_top": 48,
+      "margin_bottom": 48,
+      "bundle_color": "default",
+      "animate": false,
+      "animate_type": "fade-up",
+      "animate_repeat": true,
+      "animate_delay": 50
+    },
+    "children": [
+      {
+        "property": "testimonies",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "quote": "Aquí puedes agregar el testimonio que cada cliente entregó sobre tu tienda para aumentar el reconocimiento de tu marca.",
+          "author": "Nombre del autor",
+          "image": {
+            "url": "",
+            "alt": ""
+          }
+        },
+        "children": []
+      },
+      {
+        "property": "testimonies",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "quote": "Aquí puedes agregar el testimonio que cada cliente entregó sobre tu tienda para aumentar el reconocimiento de tu marca.",
+          "author": "Nombre del autor",
+          "image": {
+            "url": "",
+            "alt": ""
+          }
+        },
+        "children": []
+      },
+      {
+        "property": "testimonies",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "quote": "Aquí puedes agregar el testimonio que cada cliente entregó sobre tu tienda para aumentar el reconocimiento de tu marca.",
+          "author": "Nombre del autor",
+          "image": {
+            "url": "",
+            "alt": ""
+          }
+        },
+        "children": []
+      },
+      {
+        "property": "testimonies",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "quote": "Aquí puedes agregar el testimonio que cada cliente entregó sobre tu tienda para aumentar el reconocimiento de tu marca.",
+          "author": "Nombre del autor",
+          "image": {
+            "url": "",
+            "alt": ""
+          }
+        },
+        "children": []
+      }
+    ]
+  },
+  "trust-bar(2)": {
+    "type": "trust-bar",
+    "model": true,
+    "placement": "middle",
+    "identifier": "",
+    "visibility": true,
+    "options": {
+      "display": "carousel",
+      "columns_desktop": "3",
+      "columns_mobile": "2",
+      "alignment": "start",
+      "enable_icons": true,
+      "card": false,
+      "card_border": true,
+      "card_border_opacity": 10,
+      "card_bundle_color": "system-1",
+      "autoplay": true,
+      "autoplay_speed": 3000,
+      "show_arrows": false,
+      "show_arrows_hover": false,
+      "show_dots": false,
+      "margin_top": 32,
+      "margin_bottom": 32,
+      "bundle_color": "default",
+      "animate": false,
+      "animate_type": "fade-up",
+      "animate_repeat": true,
+      "animate_delay": 50
+    },
+    "children": [
+      {
+        "property": "trust-blocks",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "icon": "ph ph-truck",
+          "title": "Envío gratis",
+          "text": "Envío gratuito para compras superiores a $50",
+          "link": null,
+          "link_text": "Leer más",
+          "link_arrow": true,
+          "link_external": false
+        },
+        "children": []
+      },
+      {
+        "property": "trust-blocks",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "icon": "ph ph-credit-card",
+          "title": "Pagos Seguros",
+          "text": "Pagos seguros y protegidos",
+          "link": null,
+          "link_text": "Leer más",
+          "link_arrow": true,
+          "link_external": false
+        },
+        "children": []
+      },
+      {
+        "property": "trust-blocks",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "icon": "ph ph-storefront",
+          "title": "Abierto 24 horas",
+          "text": "Nuestra tienda está abierta las 24 horas y los 7 días de la semana",
+          "link": null,
+          "link_text": "Leer más",
+          "link_arrow": true,
+          "link_external": false
+        },
+        "children": []
+      },
+      {
+        "property": "trust-blocks",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "icon": "ph ph-headset",
+          "title": "Soporte al cliente",
+          "text": "¡Alta satisfacción y bajo tiempo de respuesta!",
+          "link": "/contact",
+          "link_text": "Contáctanos",
+          "link_arrow": true,
+          "link_external": false
+        },
+        "children": []
+      },
+      {
+        "property": "trust-blocks",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "icon": "ph ph-seal-check",
+          "title": "Calidad de productos garantizada",
+          "text": "Todos nuestros productos han sido testeados y certificados con altos estándares de calidad.",
+          "link": null,
+          "link_text": "Leer más",
+          "link_arrow": true,
+          "link_external": false
+        },
+        "children": []
+      }
+    ]
+  },
+  "product-tabs": {
+    "type": "product-tabs",
+    "model": true,
+    "placement": "middle",
+    "identifier": "",
+    "visibility": true,
+    "options": {
+      "width": "full",
+      "position_x": "center",
+      "margin_top": 32,
+      "margin_bottom": 32,
+      "bundle_color": "system-2",
+      "animate": false,
+      "animate_type": "fade-up",
+      "animate_repeat": true,
+      "animate_delay": 50
+    },
+    "children": [
+      {
+        "property": "description",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "title": "Descripción",
+          "collapse": false,
+          "collapse_threshold": 160
+        },
+        "children": []
+      },
+      {
+        "property": "fields",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "title": "Detalles",
+          "display": "table"
+        },
+        "children": []
+      },
+      {
+        "property": "attachments",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "title": "Archivos"
+        },
+        "children": []
+      }
+    ]
+  },
+  "categories": {
+    "type": "categories",
+    "model": true,
+    "placement": "middle",
+    "identifier": "",
+    "visibility": true,
+    "options": {
+      "display": "carousel",
+      "columns_desktop": 3,
+      "columns_mobile": "2",
+      "content_position": "below",
+      "align_desktop": "text-md-start",
+      "align_mobile": "text-start",
+      "ratio": "square",
+      "heading": true,
+      "heading_subtitle": "",
+      "heading_title": "Título de la Sección",
+      "heading_description": "",
+      "heading_link": null,
+      "heading_link_text": "Leer más",
+      "autoplay": true,
+      "autoplay_speed": 4000,
+      "show_arrows": true,
+      "show_arrows_hover": false,
+      "show_dots": true,
+      "margin_top": 48,
+      "margin_bottom": 48,
+      "bundle_color": "default",
+      "animate": false,
+      "animate_type": "fade-up",
+      "animate_repeat": true,
+      "animate_delay": 50
+    },
+    "children": [
+      {
+        "property": "categories",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "permalink": null,
+          "title": "",
+          "show_description": true,
+          "description": "",
+          "image_desktop": {
+            "url": "",
+            "alt": ""
+          },
+          "image_mobile": {
+            "url": "",
+            "alt": ""
+          },
+          "image_overlay": 50,
+          "icon": {
+            "url": "",
+            "alt": ""
+          },
+          "icon_size": 30,
+          "link_text": "",
+          "link_external": false,
+          "link_arrow": true,
+          "show_link_text": true,
+          "bundle_color": "system-1"
+        },
+        "children": []
+      },
+      {
+        "property": "categories",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "permalink": null,
+          "title": "",
+          "show_description": true,
+          "description": "",
+          "image_desktop": {
+            "url": "",
+            "alt": ""
+          },
+          "image_mobile": {
+            "url": "",
+            "alt": ""
+          },
+          "image_overlay": 50,
+          "icon": {
+            "url": "",
+            "alt": ""
+          },
+          "icon_size": 30,
+          "link_text": "",
+          "link_external": false,
+          "link_arrow": true,
+          "show_link_text": true,
+          "bundle_color": "system-1"
+        },
+        "children": []
+      },
+      {
+        "property": "categories",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "permalink": null,
+          "title": "",
+          "show_description": true,
+          "description": "",
+          "image_desktop": {
+            "url": "",
+            "alt": ""
+          },
+          "image_mobile": {
+            "url": "",
+            "alt": ""
+          },
+          "image_overlay": 50,
+          "icon": {
+            "url": "",
+            "alt": ""
+          },
+          "icon_size": 30,
+          "link_text": "",
+          "link_external": false,
+          "link_arrow": true,
+          "show_link_text": true,
+          "bundle_color": "system-1"
+        },
+        "children": []
+      },
+      {
+        "property": "categories",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "permalink": null,
+          "title": "",
+          "show_description": true,
+          "description": "",
+          "image_desktop": {
+            "url": "",
+            "alt": ""
+          },
+          "image_mobile": {
+            "url": "",
+            "alt": ""
+          },
+          "image_overlay": 50,
+          "icon": {
+            "url": "",
+            "alt": ""
+          },
+          "icon_size": 30,
+          "link_text": "",
+          "link_external": false,
+          "link_arrow": true,
+          "show_link_text": true,
+          "bundle_color": "system-1"
+        },
+        "children": []
+      },
+      {
+        "property": "categories",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "permalink": null,
+          "title": "",
+          "show_description": true,
+          "description": "",
+          "image_desktop": {
+            "url": "",
+            "alt": ""
+          },
+          "image_mobile": {
+            "url": "",
+            "alt": ""
+          },
+          "image_overlay": 50,
+          "icon": {
+            "url": "",
+            "alt": ""
+          },
+          "icon_size": 30,
+          "link_text": "",
+          "link_external": false,
+          "link_arrow": true,
+          "show_link_text": true,
+          "bundle_color": "system-1"
+        },
+        "children": []
+      },
+      {
+        "property": "categories",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "permalink": null,
+          "title": "",
+          "show_description": true,
+          "description": "",
+          "image_desktop": {
+            "url": "",
+            "alt": ""
+          },
+          "image_mobile": {
+            "url": "",
+            "alt": ""
+          },
+          "image_overlay": 50,
+          "icon": {
+            "url": "",
+            "alt": ""
+          },
+          "icon_size": 30,
+          "link_text": "",
+          "link_external": false,
+          "link_arrow": true,
+          "show_link_text": true,
+          "bundle_color": "system-1"
+        },
+        "children": []
+      }
+    ]
+  },
+  "categories(2)": {
+    "type": "categories",
+    "placement": "middle",
+    "identifier": "",
+    "visibility": true,
+    "options": {
+      "display": "grid",
+      "columns_desktop": 4,
+      "columns_mobile": "2",
+      "content_position": "below",
+      "align_desktop": "text-md-start",
+      "align_mobile": "text-start",
+      "ratio": "square",
+      "heading": true,
+      "heading_subtitle": "",
+      "heading_title": "Limpieza de Terrenos",
+      "heading_description": "",
+      "heading_link": null,
+      "heading_link_text": "Leer más",
+      "autoplay": true,
+      "autoplay_speed": 4000,
+      "show_arrows": true,
+      "show_arrows_hover": false,
+      "show_dots": true,
+      "margin_top": 48,
+      "margin_bottom": 48,
+      "bundle_color": "default",
+      "animate": false,
+      "animate_type": "fade-up",
+      "animate_repeat": false,
+      "animate_delay": 50
+    },
+    "children": [
+      {
+        "property": "categories",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "permalink": "limpieza-de-terrenos/roce-mecanizado",
+          "title": "Roce Mecanizado",
+          "show_description": true,
+          "description": "El roce mecanizado es una solución eficiente para la limpieza y preparación de terrenos, utilizando maquinaria especializada garantiza resultados rápidos, seguros y precisos. ",
+          "image_desktop": {
+            "url": "https://assets.jumpseller.com/store/ecoforestry/themes/817231/settings/76bfa4fe6ac2272c4a2b/IMG_0768.JPG",
+            "alt": ""
+          },
+          "image_mobile": {
+            "url": "",
+            "alt": ""
+          },
+          "image_overlay": 50,
+          "icon": {
+            "url": "",
+            "alt": ""
+          },
+          "icon_size": 30,
+          "link_text": "Ver servicio",
+          "link_external": false,
+          "link_arrow": true,
+          "show_link_text": true,
+          "bundle_color": "system-1"
+        },
+        "children": []
+      },
+      {
+        "property": "categories",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "permalink": "limpieza-de-terrenos/confeccion-de-cortafuegos",
+          "title": "Corta Fuegos",
+          "show_description": true,
+          "description": "Consiste en la creación de barreras en el terreno, que detienen lapropagación de incendios forestales.  Actúan como líneas de defensa que detienen o ralentizan el avance del fuego. ",
+          "image_desktop": {
+            "url": "https://assets.jumpseller.com/store/ecoforestry/themes/817231/settings/d9560f51a1adee9064a4/IMG_6623.JPG",
+            "alt": ""
+          },
+          "image_mobile": {
+            "url": "",
+            "alt": ""
+          },
+          "image_overlay": 50,
+          "icon": {
+            "url": "",
+            "alt": ""
+          },
+          "icon_size": 30,
+          "link_text": "Ver servicio",
+          "link_external": false,
+          "link_arrow": true,
+          "show_link_text": true,
+          "bundle_color": "system-1"
+        },
+        "children": []
+      },
+      {
+        "property": "categories",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "permalink": "limpieza-de-terrenos/podas-en-altura",
+          "title": "Podas en Altura",
+          "show_description": true,
+          "description": "Garantiza el manejo seguro y profesional de árboles y ramas a gran altura. Se enfoca en mantener la salud de los árboles, prevenir riesgos para estructuras cercanas mejorando la seguridad.",
+          "image_desktop": {
+            "url": "https://assets.jumpseller.com/store/ecoforestry/themes/817231/settings/bd68d51f06cc95e44560/IMG_0455.JPG",
+            "alt": ""
+          },
+          "image_mobile": {
+            "url": "",
+            "alt": ""
+          },
+          "image_overlay": 50,
+          "icon": {
+            "url": "",
+            "alt": ""
+          },
+          "icon_size": 30,
+          "link_text": "Ver servicio",
+          "link_external": false,
+          "link_arrow": true,
+          "show_link_text": true,
+          "bundle_color": "system-1"
+        },
+        "children": []
+      },
+      {
+        "property": "categories",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "permalink": "limpieza-de-terrenos/movimiento-de-tierra",
+          "title": "\n          Movimiento de Tierra",
+          "show_description": true,
+          "description": "Incluye nivelación, excavación, relleno y compactación, adaptado a proyectos de construcción, agrícolas o forestales. Garantizamos precisión, eficiencia y cumplimiento de los plazos.",
+          "image_desktop": {
+            "url": "https://assets.jumpseller.com/store/ecoforestry/themes/817231/settings/3641945b5f9decdeeec2/IMG_0656.JPG",
+            "alt": ""
+          },
+          "image_mobile": {
+            "url": "",
+            "alt": ""
+          },
+          "image_overlay": 50,
+          "icon": {
+            "url": "",
+            "alt": ""
+          },
+          "icon_size": 30,
+          "link_text": "Ver servicio",
+          "link_external": false,
+          "link_arrow": true,
+          "show_link_text": true,
+          "bundle_color": "system-1"
+        },
+        "children": []
+      }
+    ]
+  },
+  "featured-products": {
+    "type": "featured-products",
+    "placement": "middle",
+    "identifier": "",
+    "visibility": true,
+    "options": {
+      "limit": 12,
+      "display": "carousel",
+      "heading": true,
+      "heading_subtitle": "",
+      "heading_title": "Arriendo de Maquinaria",
+      "heading_description": "",
+      "heading_link": null,
+      "heading_link_text": "Ver más productos",
+      "autoplay": false,
+      "autoplay_speed": 4000,
+      "show_arrows": true,
+      "show_arrows_hover": false,
+      "show_dots": true,
+      "margin_top": 48,
+      "margin_bottom": 48,
+      "bundle_color": "default",
+      "animate": false,
+      "animate_type": "fade-up",
+      "animate_repeat": false,
+      "animate_delay": 50
+    },
+    "children": []
+  },
+  "template-heading(2)": {
+    "type": "template-heading",
+    "placement": "middle",
+    "identifier": "",
+    "visibility": false,
+    "options": {
+      "width": "grid",
+      "position_x": "center",
+      "show_date": false,
+      "show_description": false,
+      "description": "",
+      "background_image": false,
+      "background_image_overlay": 50,
+      "margin_top": 32,
+      "margin_bottom": 0,
+      "bundle_color": "default",
+      "animate": false,
+      "animate_type": "fade-up",
+      "animate_repeat": true,
+      "animate_delay": 50
+    },
+    "children": []
+  },
+  "template-image(2)": {
+    "type": "template-image",
+    "placement": "middle",
+    "identifier": "",
+    "visibility": true,
+    "options": {
+      "width": "grid",
+      "position_x": "center",
+      "margin_top": 32,
+      "margin_bottom": 32,
+      "bundle_color": "default",
+      "animate": false,
+      "animate_type": "fade-up",
+      "animate_repeat": true,
+      "animate_delay": 50
+    },
+    "children": []
+  },
+  "page-body(3)": {
+    "type": "page-body",
+    "placement": "middle",
+    "identifier": "",
+    "visibility": true,
+    "options": {
+      "width": "grid",
+      "alignment": "text-start",
+      "position_x": "center",
+      "margin_top": 32,
+      "margin_bottom": 32,
+      "bundle_color": "default",
+      "animate": false,
+      "animate_type": "fade-up",
+      "animate_repeat": true,
+      "animate_delay": 50
+    },
+    "children": []
+  },
+  "media-with-text": {
+    "type": "media-with-text",
+    "placement": "middle",
+    "identifier": "",
+    "visibility": true,
+    "options": {
+      "columns": "media-content",
+      "columns_mobile": false,
+      "image_desktop": {
+        "url": "https://assets.jumpseller.com/store/ecoforestry/themes/817231/settings/37f212ac53179fbcfb02/FNHD3907.JPG",
+        "alt": ""
+      },
+      "image_mobile": {
+        "url": "",
+        "alt": ""
+      },
+      "video": "",
+      "ratio": "aspect-ratio-landscape",
+      "alignment": "start",
+      "position_y": "start",
+      "subtitle": "",
+      "title": "Nuestra especialidad",
+      "text": "Somos una empresa especializada en la limpieza de terrenos, arriendo y venta de maquinaria, ubicada en la zona sur de Chile.<div>Ofrecemos un servicio de limpieza de terrenos con maquinaria de trituración en áreas como Puerto Montt, Puerto Varas, Llanquihue, Frutillar, Purranque, Los Muermos y Osorno. Nos destacamos por la rapidez y versatilidad de nuestros servicios, adaptándonos a las necesidades de cada cliente.</div>",
+      "link": "/",
+      "link_text": "Ver Servicios",
+      "link_outline": false,
+      "link_arrow": true,
+      "margin_top": 48,
+      "margin_bottom": 48,
+      "bundle_color": "default",
+      "animate": false,
+      "animate_type": "fade-up",
+      "animate_repeat": true,
+      "animate_delay": 50
+    },
+    "children": []
+  },
+  "media-with-text(2)": {
+    "type": "media-with-text",
+    "placement": "middle",
+    "identifier": "",
+    "visibility": true,
+    "options": {
+      "columns": "content-media",
+      "columns_mobile": false,
+      "image_desktop": {
+        "url": "https://assets.jumpseller.com/store/ecoforestry/themes/817231/settings/31f9f769e548bf329768/IMG_0640.JPG",
+        "alt": ""
+      },
+      "image_mobile": {
+        "url": "",
+        "alt": ""
+      },
+      "video": "",
+      "ratio": "aspect-ratio-landscape",
+      "alignment": "start",
+      "position_y": "start",
+      "subtitle": "",
+      "title": "Compromiso con la transparencia",
+      "text": "Nuestra propuesta se basa en la transparencia y simplicidad, asegurando que el cliente sepa exactamente cómo se calculará el costo, en función del tamaño del espacio. <span style=\"color: var(--color-secondary); font-family: var(--font-secondary); font-size: var(--description-size-desktop); font-weight: var(--bs-body-font-weight);\">Esto elimina cargos ambiguos o inesperados, facilitando la toma de decisiones. </span><div><span style=\"color: var(--color-secondary); font-family: var(--font-secondary); font-size: var(--description-size-desktop); font-weight: var(--bs-body-font-weight);\">Además, con el cobro por metros cuadrados en servicios como la limpieza de terrenos, ajustamos el servicio a las dimensiones exactas del área, evitando que nuestros clientes paguen de más por servicios innecesarios o áreas no requeridas.</span></div>",
+      "link": "/",
+      "link_text": "Ver Productos",
+      "link_outline": false,
+      "link_arrow": true,
+      "margin_top": 48,
+      "margin_bottom": 48,
+      "bundle_color": "default",
+      "animate": false,
+      "animate_type": "fade-up",
+      "animate_repeat": true,
+      "animate_delay": 50
+    },
+    "children": []
+  },
+  "accordion(2)": {
+    "type": "accordion",
+    "placement": "middle",
+    "identifier": "",
+    "visibility": true,
+    "options": {
+      "enable_width": false,
+      "width": "large",
+      "alignment": "center",
+      "collapse": true,
+      "first": false,
+      "heading": true,
+      "heading_subtitle": "",
+      "heading_title": "",
+      "heading_description": "",
+      "heading_link": null,
+      "heading_link_text": "Leer más",
+      "margin_top": 16,
+      "margin_bottom": 48,
+      "bundle_color": "default",
+      "animate": false,
+      "animate_type": "fade-up",
+      "animate_repeat": true,
+      "animate_delay": 50
+    },
+    "children": [
+      {
+        "property": "items",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "title": "¿Qué incluye el servicio de limpieza de terrenos?",
+          "content": "El servicio de limpieza de terrenos incluye la remoción de vegetación, escombros y materiales no deseados utilizando maquinaria especializada para garantizar un trabajo eficiente y rápido.",
+          "image": {
+            "url": "",
+            "alt": ""
+          },
+          "size": 50,
+          "image_position": "after"
+        },
+        "children": []
+      },
+      {
+        "property": "items",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "title": "¿Cómo se calcula el costo del servicio?",
+          "content": "El costo se calcula en base a los metros cuadrados del área a limpiar, lo que permite ajustar el servicio a las dimensiones exactas del terreno y evitar cobros adicionales.",
+          "image": {
+            "url": "",
+            "alt": ""
+          },
+          "size": 50,
+          "image_position": "after"
+        },
+        "children": []
+      },
+      {
+        "property": "items",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "title": "¿Cuánto tiempo tarda en completarse la limpieza de un terreno?",
+          "content": "El tiempo de ejecución depende del tamaño y la complejidad del terreno, pero siempre buscamos realizar el trabajo de forma rápida y eficiente, ajustándonos a las necesidades del cliente.",
+          "image": {
+            "url": "",
+            "alt": ""
+          },
+          "size": 50,
+          "image_position": "after"
+        },
+        "children": []
+      },
+      {
+        "property": "items",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "title": " ¿Puedo contratar solo el arriendo de la maquinaria?",
+          "content": "Sí, ofrecemos el arriendo de maquinaria especializada para aquellos que necesiten realizar trabajos de limpieza de terrenos por su cuenta, con opciones adaptadas a diferentes necesidades.",
+          "image": {
+            "url": "",
+            "alt": ""
+          },
+          "size": 50,
+          "image_position": "after"
+        },
+        "children": []
+      }
+    ]
+  },
+  "big-banner": {
+    "type": "big-banner",
+    "placement": "middle",
+    "identifier": "",
+    "visibility": true,
+    "options": {
+      "width": "default",
+      "height": "small",
+      "show_content": true,
+      "align_desktop": "text-md-center",
+      "align_mobile": "text-center",
+      "position_x": "center",
+      "subtitle": "Preguntas frecuentes",
+      "title": "Resuelve tus dudas rápidamente",
+      "description": "Aquí encontrarás las respuestas a las preguntas más comunes sobre nuestros servicios. Si necesitas más información o tienes alguna consulta específica, no dudes en ponerte en contacto con nosotros..",
+      "image_desktop": {
+        "url": "https://assets.jumpseller.com/store/ecoforestry/themes/817231/settings/331ca85919891ffe9fd8/IMG_6379.JPG",
+        "alt": ""
+      },
+      "image_mobile": {
+        "url": "",
+        "alt": ""
+      },
+      "image_overlay": 50,
+      "position_image_x": "center",
+      "position_image_y": "center",
+      "link": "/",
+      "link_text": "Contáctanos",
+      "link_external": false,
+      "link_button": true,
+      "link_outline": false,
+      "link_arrow": true,
+      "bundle_color": "bundle-a1666e02787eb",
+      "margin_top": 0,
+      "margin_bottom": 0,
+      "bundle_color_background": "default",
+      "animate": false,
+      "animate_type": "fade-up",
+      "animate_repeat": true,
+      "animate_delay": 50
+    },
+    "children": []
+  },
+  "slider(3)": {
+    "type": "slider",
+    "placement": "middle",
+    "identifier": "",
+    "visibility": false,
+    "options": {
+      "content_type": "content",
+      "width": "1320px",
+      "height": "small",
+      "autoplay": true,
+      "autoplay_speed": 3000,
+      "show_arrows": true,
+      "show_arrows_hover": false,
+      "show_dots": true,
+      "margin_top": 48,
+      "margin_bottom": 48,
+      "bundle_color": "default",
+      "animate": false,
+      "animate_type": "fade-up",
+      "animate_repeat": false,
+      "animate_delay": 50
+    },
+    "children": [
+      {
+        "property": "slides",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "image_desktop": {
+            "url": "https://assets.jumpseller.com/store/ecoforestry/themes/817231/settings/d8207a7d1d7e2575333f/IMG_0657.JPG",
+            "alt": ""
+          },
+          "image_mobile": {
+            "url": "",
+            "alt": ""
+          },
+          "link": "/",
+          "link_text": "Preguntas frecuentes",
+          "link_external": false,
+          "link_button": true,
+          "link_outline": false,
+          "link_arrow": true,
+          "subtitle": "¿Tienes dudas sobre nuestros servicios de limpieza de terrenos y arriendo de maquinaria?",
+          "title": "Descubre todo lo que necesitas saber sobre precios, procesos y cómo podemos ayudarte.",
+          "description": "",
+          "align_desktop": "text-md-center",
+          "align_mobile": "text-center",
+          "position_x": "center",
+          "position_y_desktop": "center",
+          "position_y_mobile": "center",
+          "image_overlay": 50,
+          "position_image_x": "center",
+          "position_image_y": "center",
+          "bundle_color": "bundle-a1666e02787eb"
+        },
+        "children": []
+      }
+    ]
+  },
+  "latest-blog-posts": {
+    "type": "latest-blog-posts",
+    "placement": "middle",
+    "identifier": "",
+    "visibility": true,
+    "options": {
+      "page_category": "Post",
+      "display": "carousel",
+      "limit": 3,
+      "columns_desktop": "3",
+      "columns_mobile": "2",
+      "heading": true,
+      "heading_subtitle": "",
+      "heading_title": "Blog",
+      "heading_description": "",
+      "heading_link": "/blog",
+      "heading_link_text": "Ver más artículos",
+      "autoplay": false,
+      "autoplay_speed": 4000,
+      "show_arrows": true,
+      "show_arrows_hover": false,
+      "show_dots": true,
+      "margin_top": 48,
+      "margin_bottom": 48,
+      "bundle_color": "system-3",
+      "animate": false,
+      "animate_type": "fade-up",
+      "animate_repeat": true,
+      "animate_delay": 50
+    },
+    "children": []
+  },
+  "instagram": {
+    "type": "instagram",
+    "placement": "middle",
+    "identifier": "",
+    "visibility": true,
+    "options": {
+      "limit": "6",
+      "display": "grid",
+      "spacing": false,
+      "title": "Síguenos en Instagram",
+      "autoplay": false,
+      "autoplay_speed": 4000,
+      "show_arrows": true,
+      "show_arrows_hover": false,
+      "show_dots": true,
+      "margin_top": 48,
+      "margin_bottom": 48,
+      "bundle_color": "default",
+      "animate": false,
+      "animate_type": "fade-up",
+      "animate_repeat": true,
+      "animate_delay": 50
+    },
+    "children": []
+  },
+  "selected-product": {
+    "type": "selected-product",
+    "placement": "middle",
+    "identifier": "",
+    "visibility": true,
+    "options": {
+      "permalink": "podas-en-altura",
+      "columns_order": false,
+      "content_alignment": "start",
+      "gallery_image_format": false,
+      "gallery_image_dimension": "square",
+      "gallery_image_display": "thumb",
+      "gallery_image_size": 719,
+      "gallery_thumbs": true,
+      "gallery_thumbs_position": "bottom",
+      "gallery_zoom": true,
+      "gallery_zoom_size": 2,
+      "sticky_product_image": false,
+      "card_enable": true,
+      "card_border": true,
+      "card_border_opacity": 10,
+      "card_bundle_color": "default",
+      "margin_top": 40,
+      "margin_bottom": 32,
+      "bundle_color": "default",
+      "animate": false,
+      "animate_type": "fade-up",
+      "animate_repeat": true,
+      "animate_delay": 50
+    },
+    "children": [
+      {
+        "property": "attributes",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "mobile_first": true,
+          "show_sku": true,
+          "show_sku_text": true,
+          "show_brand": true
+        },
+        "children": []
+      },
+      {
+        "property": "title",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "mobile_first": true,
+          "uppercase": false
+        },
+        "children": []
+      },
+      {
+        "property": "price",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "mobile_first": false,
+          "display": "horizontal",
+          "show_discount_badge": true,
+          "show_discount_message": true
+        },
+        "children": []
+      },
+      {
+        "property": "reviews-stars",
+        "identifier": "",
+        "visibility": true,
+        "options": {},
+        "children": []
+      },
+      {
+        "property": "stock",
+        "identifier": "",
+        "visibility": true,
+        "options": {},
+        "children": []
+      },
+      {
+        "property": "form",
+        "identifier": "",
+        "visibility": true,
+        "options": {},
+        "children": []
+      },
+      {
+        "property": "stock-locations",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "title": "Encuentra tu tienda preferida",
+          "button_icon": "ph ph-storefront",
+          "button_text": "Mostrar stock de ubicaciones"
+        },
+        "children": []
+      },
+      {
+        "property": "share",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "title": "Compartir este producto",
+          "show_facebook": true,
+          "show_twitter": true,
+          "show_whatsapp": true,
+          "show_pinterest": true,
+          "show_email": false,
+          "show_clipboard": true
+        },
+        "children": []
+      }
+    ]
+  },
+  "selected-product(2)": {
+    "type": "selected-product",
+    "placement": "middle",
+    "identifier": "",
+    "visibility": true,
+    "options": {
+      "permalink": "confeccion-de-corta-fuego",
+      "columns_order": false,
+      "content_alignment": "start",
+      "gallery_image_format": false,
+      "gallery_image_dimension": "square",
+      "gallery_image_display": "thumb",
+      "gallery_image_size": 719,
+      "gallery_thumbs": true,
+      "gallery_thumbs_position": "bottom",
+      "gallery_zoom": true,
+      "gallery_zoom_size": 2,
+      "sticky_product_image": false,
+      "card_enable": true,
+      "card_border": true,
+      "card_border_opacity": 10,
+      "card_bundle_color": "default",
+      "margin_top": 40,
+      "margin_bottom": 32,
+      "bundle_color": "default",
+      "animate": false,
+      "animate_type": "fade-up",
+      "animate_repeat": true,
+      "animate_delay": 50
+    },
+    "children": [
+      {
+        "property": "attributes",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "mobile_first": true,
+          "show_sku": true,
+          "show_sku_text": true,
+          "show_brand": true
+        },
+        "children": []
+      },
+      {
+        "property": "title",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "mobile_first": true,
+          "uppercase": false
+        },
+        "children": []
+      },
+      {
+        "property": "price",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "mobile_first": false,
+          "display": "horizontal",
+          "show_discount_badge": true,
+          "show_discount_message": true
+        },
+        "children": []
+      },
+      {
+        "property": "reviews-stars",
+        "identifier": "",
+        "visibility": true,
+        "options": {},
+        "children": []
+      },
+      {
+        "property": "stock",
+        "identifier": "",
+        "visibility": true,
+        "options": {},
+        "children": []
+      },
+      {
+        "property": "form",
+        "identifier": "",
+        "visibility": true,
+        "options": {},
+        "children": []
+      },
+      {
+        "property": "stock-locations",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "title": "Encuentra tu tienda preferida",
+          "button_icon": "ph ph-storefront",
+          "button_text": "Mostrar stock de ubicaciones"
+        },
+        "children": []
+      },
+      {
+        "property": "share",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "title": "Compartir este producto",
+          "show_facebook": true,
+          "show_twitter": true,
+          "show_whatsapp": true,
+          "show_pinterest": true,
+          "show_email": false,
+          "show_clipboard": true
+        },
+        "children": []
+      }
+    ]
+  },
+  "selected-product(3)": {
+    "type": "selected-product",
+    "placement": "middle",
+    "identifier": "",
+    "visibility": true,
+    "options": {
+      "permalink": "roce-mecanizado",
+      "columns_order": false,
+      "content_alignment": "start",
+      "gallery_image_format": false,
+      "gallery_image_dimension": "square",
+      "gallery_image_display": "thumb",
+      "gallery_image_size": 719,
+      "gallery_thumbs": true,
+      "gallery_thumbs_position": "bottom",
+      "gallery_zoom": true,
+      "gallery_zoom_size": 2,
+      "sticky_product_image": false,
+      "card_enable": true,
+      "card_border": true,
+      "card_border_opacity": 10,
+      "card_bundle_color": "default",
+      "margin_top": 40,
+      "margin_bottom": 32,
+      "bundle_color": "default",
+      "animate": false,
+      "animate_type": "fade-up",
+      "animate_repeat": true,
+      "animate_delay": 50
+    },
+    "children": [
+      {
+        "property": "attributes",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "mobile_first": true,
+          "show_sku": true,
+          "show_sku_text": true,
+          "show_brand": true
+        },
+        "children": []
+      },
+      {
+        "property": "title",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "mobile_first": true,
+          "uppercase": false
+        },
+        "children": []
+      },
+      {
+        "property": "price",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "mobile_first": false,
+          "display": "horizontal",
+          "show_discount_badge": true,
+          "show_discount_message": true
+        },
+        "children": []
+      },
+      {
+        "property": "reviews-stars",
+        "identifier": "",
+        "visibility": true,
+        "options": {},
+        "children": []
+      },
+      {
+        "property": "stock",
+        "identifier": "",
+        "visibility": true,
+        "options": {},
+        "children": []
+      },
+      {
+        "property": "form",
+        "identifier": "",
+        "visibility": true,
+        "options": {},
+        "children": []
+      },
+      {
+        "property": "stock-locations",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "title": "Encuentra tu tienda preferida",
+          "button_icon": "ph ph-storefront",
+          "button_text": "Mostrar stock de ubicaciones"
+        },
+        "children": []
+      },
+      {
+        "property": "share",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "title": "Compartir este producto",
+          "show_facebook": true,
+          "show_twitter": true,
+          "show_whatsapp": true,
+          "show_pinterest": true,
+          "show_email": false,
+          "show_clipboard": true
+        },
+        "children": []
+      }
+    ]
+  },
+  "selected-product(4)": {
+    "type": "selected-product",
+    "placement": "middle",
+    "identifier": "",
+    "visibility": true,
+    "options": {
+      "permalink": "movimiento-de-tierra",
+      "columns_order": false,
+      "content_alignment": "start",
+      "gallery_image_format": false,
+      "gallery_image_dimension": "square",
+      "gallery_image_display": "thumb",
+      "gallery_image_size": 719,
+      "gallery_thumbs": true,
+      "gallery_thumbs_position": "bottom",
+      "gallery_zoom": true,
+      "gallery_zoom_size": 2,
+      "sticky_product_image": false,
+      "card_enable": true,
+      "card_border": true,
+      "card_border_opacity": 10,
+      "card_bundle_color": "default",
+      "margin_top": 40,
+      "margin_bottom": 32,
+      "bundle_color": "default",
+      "animate": false,
+      "animate_type": "fade-up",
+      "animate_repeat": true,
+      "animate_delay": 50
+    },
+    "children": [
+      {
+        "property": "attributes",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "mobile_first": true,
+          "show_sku": true,
+          "show_sku_text": true,
+          "show_brand": true
+        },
+        "children": []
+      },
+      {
+        "property": "title",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "mobile_first": true,
+          "uppercase": false
+        },
+        "children": []
+      },
+      {
+        "property": "price",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "mobile_first": false,
+          "display": "horizontal",
+          "show_discount_badge": true,
+          "show_discount_message": true
+        },
+        "children": []
+      },
+      {
+        "property": "reviews-stars",
+        "identifier": "",
+        "visibility": true,
+        "options": {},
+        "children": []
+      },
+      {
+        "property": "stock",
+        "identifier": "",
+        "visibility": true,
+        "options": {},
+        "children": []
+      },
+      {
+        "property": "form",
+        "identifier": "",
+        "visibility": true,
+        "options": {},
+        "children": []
+      },
+      {
+        "property": "stock-locations",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "title": "Encuentra tu tienda preferida",
+          "button_icon": "ph ph-storefront",
+          "button_text": "Mostrar stock de ubicaciones"
+        },
+        "children": []
+      },
+      {
+        "property": "share",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "title": "Compartir este producto",
+          "show_facebook": true,
+          "show_twitter": true,
+          "show_whatsapp": true,
+          "show_pinterest": true,
+          "show_email": false,
+          "show_clipboard": true
+        },
+        "children": []
+      }
+    ]
+  },
+  "category-heading(2)": {
+    "type": "category-heading",
+    "placement": "middle",
+    "identifier": "",
+    "visibility": true,
+    "options": {
+      "description": true,
+      "background_image": false,
+      "background_image_overlay": 50,
+      "margin_top": 32,
+      "margin_bottom": 0,
+      "bundle_color": "default",
+      "animate": false,
+      "animate_type": "fade-up",
+      "animate_repeat": true,
+      "animate_delay": 50
+    },
+    "children": []
+  },
+  "category-heading(3)": {
+    "type": "category-heading",
+    "placement": "middle",
+    "identifier": "",
+    "visibility": true,
+    "options": {
+      "description": true,
+      "background_image": false,
+      "background_image_overlay": 50,
+      "margin_top": 32,
+      "margin_bottom": 0,
+      "bundle_color": "default",
+      "animate": false,
+      "animate_type": "fade-up",
+      "animate_repeat": true,
+      "animate_delay": 50
+    },
+    "children": []
+  },
+  "category-heading(4)": {
+    "type": "category-heading",
+    "placement": "middle",
+    "identifier": "",
+    "visibility": true,
+    "options": {
+      "description": true,
+      "background_image": false,
+      "background_image_overlay": 50,
+      "margin_top": 32,
+      "margin_bottom": 0,
+      "bundle_color": "default",
+      "animate": false,
+      "animate_type": "fade-up",
+      "animate_repeat": true,
+      "animate_delay": 50
+    },
+    "children": []
+  },
+  "selected-product(5)": {
+    "type": "selected-product",
+    "placement": "middle",
+    "identifier": "",
+    "visibility": true,
+    "options": {
+      "permalink": "podas-en-altura",
+      "columns_order": false,
+      "content_alignment": "start",
+      "gallery_image_format": false,
+      "gallery_image_dimension": "square",
+      "gallery_image_display": "thumb",
+      "gallery_image_size": 719,
+      "gallery_thumbs": true,
+      "gallery_thumbs_position": "bottom",
+      "gallery_zoom": true,
+      "gallery_zoom_size": 2,
+      "sticky_product_image": false,
+      "card_enable": true,
+      "card_border": true,
+      "card_border_opacity": 10,
+      "card_bundle_color": "default",
+      "margin_top": 40,
+      "margin_bottom": 32,
+      "bundle_color": "default",
+      "animate": false,
+      "animate_type": "fade-up",
+      "animate_repeat": true,
+      "animate_delay": 50
+    },
+    "children": [
+      {
+        "property": "attributes",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "mobile_first": true,
+          "show_sku": true,
+          "show_sku_text": true,
+          "show_brand": true
+        },
+        "children": []
+      },
+      {
+        "property": "title",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "mobile_first": true,
+          "uppercase": false
+        },
+        "children": []
+      },
+      {
+        "property": "price",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "mobile_first": false,
+          "display": "horizontal",
+          "show_discount_badge": true,
+          "show_discount_message": true
+        },
+        "children": []
+      },
+      {
+        "property": "reviews-stars",
+        "identifier": "",
+        "visibility": true,
+        "options": {},
+        "children": []
+      },
+      {
+        "property": "stock",
+        "identifier": "",
+        "visibility": true,
+        "options": {},
+        "children": []
+      },
+      {
+        "property": "form",
+        "identifier": "",
+        "visibility": true,
+        "options": {},
+        "children": []
+      },
+      {
+        "property": "stock-locations",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "title": "Encuentra tu tienda preferida",
+          "button_icon": "ph ph-storefront",
+          "button_text": "Mostrar stock de ubicaciones"
+        },
+        "children": []
+      },
+      {
+        "property": "share",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "title": "Compartir este producto",
+          "show_facebook": true,
+          "show_twitter": true,
+          "show_whatsapp": true,
+          "show_pinterest": true,
+          "show_email": false,
+          "show_clipboard": true
+        },
+        "children": []
+      }
+    ]
+  },
+  "handpicked-products": {
+    "type": "handpicked-products",
+    "placement": "middle",
+    "identifier": "",
+    "visibility": true,
+    "options": {
+      "limit": 4,
+      "display": "carousel",
+      "heading": true,
+      "heading_subtitle": "",
+      "heading_title": "Nuestros servicios",
+      "heading_description": "",
+      "heading_link": null,
+      "heading_link_text": "Ver más productos",
+      "autoplay": false,
+      "autoplay_speed": 4000,
+      "show_arrows": true,
+      "show_arrows_hover": false,
+      "show_dots": true,
+      "margin_top": 48,
+      "margin_bottom": 48,
+      "bundle_color": "default",
+      "animate": false,
+      "animate_type": "fade-up",
+      "animate_repeat": true,
+      "animate_delay": 50
+    },
+    "children": [
+      {
+        "property": "products",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "permalink": "roce-mecanizado"
+        },
+        "children": []
+      },
+      {
+        "property": "products",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "permalink": "confeccion-de-corta-fuego"
+        },
+        "children": []
+      },
+      {
+        "property": "products",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "permalink": "podas-en-altura"
+        },
+        "children": []
+      },
+      {
+        "property": "products",
+        "identifier": "",
+        "visibility": true,
+        "options": {
+          "permalink": "movimiento-de-tierra"
+        },
+        "children": []
+      }
+    ]
+  },
+  "latest-blog-posts(2)": {
+    "type": "latest-blog-posts",
+    "placement": "middle",
+    "identifier": "",
+    "visibility": true,
+    "options": {
+      "page_category": "Post",
+      "display": "carousel",
+      "limit": 3,
+      "columns_desktop": "3",
+      "columns_mobile": "2",
+      "heading": true,
+      "heading_subtitle": "Inspírate y sé parte del cambio.",
+      "heading_title": "Cultivando un Futuro Sostenible",
+      "heading_description": "Explora consejos, ideas,  trabajos y tendencias sobre reforestación y sostenibilidad. ",
+      "heading_link": "/blog",
+      "heading_link_text": "Ver más artículos",
+      "autoplay": false,
+      "autoplay_speed": 4000,
+      "show_arrows": true,
+      "show_arrows_hover": false,
+      "show_dots": true,
+      "margin_top": 48,
+      "margin_bottom": 48,
+      "bundle_color": "bundle-aed657c8b3e9c",
+      "animate": false,
+      "animate_type": "fade-up",
+      "animate_repeat": true,
+      "animate_delay": 50
+    },
+    "children": []
+  },
+  "video": {
+    "type": "video",
+    "placement": "middle",
+    "identifier": "",
+    "visibility": true,
+    "options": {
+      "video": "<figure><iframe src=\"https://player.vimeo.com/video/1049370788?h=fcaec50dc5&amp;title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" style=\"position:absolute;top:0;left:0;width:100%;height:100%;\" title=\"Video Banner\"></iframe></figure>",
+      "ratio": "landscape",
+      "width": "full",
+      "position_x": "center",
+      "margin_top": 32,
+      "margin_bottom": 32,
+      "bundle_color": "default",
+      "animate": false,
+      "animate_type": "fade-up",
+      "animate_repeat": true,
+      "animate_delay": 50
+    },
+    "children": []
+  }
+}

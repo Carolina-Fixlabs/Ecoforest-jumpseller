@@ -1,0 +1,243 @@
+{
+  "home": {
+    "Default": {
+      "components": [
+        "header",
+        "slider",
+        "banners",
+        "categories(2)",
+        "slider(3)",
+        "featured-products",
+        "latest-blog-posts",
+        "instagram",
+        "trust-bar",
+        "footer"
+      ]
+    }
+  },
+  "product": {
+    "Default": {
+      "components": [
+        "header",
+        "product-template",
+        "product-reviews",
+        "recommended-products",
+        "footer"
+      ]
+    }
+  },
+  "category": {
+    "Default": {
+      "components": [
+        "header",
+        "category-heading",
+        "template-image",
+        "footer",
+        "selected-product"
+      ]
+    },
+    "Brands": {
+      "components": [
+        "header",
+        "category-heading",
+        "template-image",
+        "category-brands-template",
+        "footer"
+      ]
+    },
+    "Confeccion de cortafuego": {
+      "components": [
+        "header",
+        "category-heading(2)",
+        "template-image",
+        "footer",
+        "selected-product(2)"
+      ]
+    },
+    "Limpieza de terrenos": {
+      "components": [
+        "header",
+        "category-heading",
+        "template-image",
+        "footer",
+        "handpicked-products"
+      ]
+    },
+    "Movimiento de Tierra": {
+      "components": [
+        "header",
+        "category-heading(3)",
+        "template-image",
+        "footer",
+        "selected-product(4)"
+      ]
+    },
+    "Podas en altura": {
+      "components": [
+        "header",
+        "category-heading(4)",
+        "template-image",
+        "footer",
+        "selected-product(5)"
+      ]
+    },
+    "Roce Mecanizado": {
+      "components": [
+        "header",
+        "category-heading",
+        "template-image",
+        "footer",
+        "selected-product(3)"
+      ]
+    },
+    "Show subcategories": {
+      "components": [
+        "header",
+        "category-heading",
+        "template-image",
+        "category-subcategories-template",
+        "footer"
+      ]
+    }
+  },
+  "page": {
+    "Default": {
+      "components": [
+        "header",
+        "template-heading",
+        "template-image",
+        "page-body",
+        "footer"
+      ]
+    },
+    "Blog": {
+      "components": [
+        "header",
+        "template-heading",
+        "template-image",
+        "page-body",
+        "page-blog-template",
+        "footer",
+        "latest-blog-posts(2)"
+      ]
+    },
+    "Post": {
+      "components": [
+        "header",
+        "template-heading",
+        "template-image",
+        "page-body(2)",
+        "page-share",
+        "footer"
+      ]
+    },
+    "Preguntas frecuentes": {
+      "components": [
+        "header",
+        "template-heading",
+        "template-image",
+        "page-body",
+        "big-banner",
+        "accordion(2)",
+        "footer"
+      ]
+    },
+    "quiebes somos": {
+      "components": [
+        "header",
+        "video",
+        "template-heading(2)",
+        "template-image(2)",
+        "page-body(3)",
+        "media-with-text",
+        "media-with-text(2)",
+        "footer"
+      ]
+    }
+  },
+  "searchresults": {
+    "Default": {
+      "components": [
+        "header",
+        "category-heading",
+        "product-feed",
+        "footer"
+      ]
+    }
+  },
+  "contactpage": {
+    "Default": {
+      "components": [
+        "header",
+        "contact-form",
+        "footer"
+      ]
+    }
+  },
+  "error": {
+    "Default": {
+      "components": [
+        "header",
+        "footer"
+      ]
+    }
+  },
+  "checkout__cart": {
+    "Default": {
+      "components": [
+        "cart-products",
+        "cart-cross-selling"
+      ]
+    }
+  },
+  "checkout__checkout": {
+    "Default": {
+      "components": [
+        "checkout-form"
+      ]
+    }
+  },
+  "customer__account": {
+    "Default": {
+      "components": [
+        "header",
+        "customer-heading",
+        "customer-tabs",
+        "footer"
+      ]
+    }
+  },
+  "customer__address": {
+    "Default": {
+      "components": [
+        "header",
+        "footer"
+      ]
+    }
+  },
+  "customer__details": {
+    "Default": {
+      "components": [
+        "header",
+        "footer"
+      ]
+    }
+  },
+  "customer__login": {
+    "Default": {
+      "components": [
+        "header",
+        "customer-login",
+        "footer"
+      ]
+    }
+  },
+  "customer__reset_password": {
+    "Default": {
+      "components": [
+        "header",
+        "footer"
+      ]
+    }
+  }
+}
