@@ -1,7 +1,7 @@
 {% assign columns = item.items.size %}
 
-<div class="header-megamenu dropdown-menu">
-  <div class="container header-megamenu__container">
+<div class="header-megamenu dropdown-menu menu-style" style="visibility:visible">
+  <div class="container header-megamenu__container" >
     <div class="row">
       {% for item in item.items %}
         <div class="col{% if columns > 6 %}-2{% endif %} header-megamenu__column">
@@ -69,3 +69,10 @@
     </div>
   </div>
 </div>
+<style>
+  .menu-style{
+  position: absolute;
+  left: 0;
+  z-index: 9999;
+  }
+</style>

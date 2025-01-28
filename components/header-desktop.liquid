@@ -50,7 +50,7 @@
   >
   
     <ul class="no-bullet justify-content-{{ header-desktop.options.alignment }} header-nav__menu header-nav__menu--{{ header-desktop.options.alignment }}">
-      {% if component.options.categories %}
+      {%comment%}{% if component.options.categories %}
         {% render 'header_menu_categories',
           categories_display: component.options.categories_display,
           categories_title: component.options.categories_title,
@@ -60,6 +60,7 @@
           header_version: header_version
         %}
       {% endif %}
+      {%endcomment%}
 
       {% for item in menu.main.items %}
         <li class="header-nav__item{% if item.dropdown %} dropdown{% if menu_event == 'hover' %} header-nav__item--hover{% endif %}{% if header-desktop.options.submenu == 'megamenu' %} header-nav__item--inherit{% endif %}{% endif %}">
@@ -124,10 +125,21 @@
 
     {% unless header_version == 'v3' or header_version == 'v4' %}
       {% if component.options.show_social %}
-        <ul class="no-bullet d-none d-lg-flex {{ social_alignment }} header-nav__menu header-nav__menu--social">
+        <ul class="no-bullet d-none d-lg-flex {{ social_alignment }} header-nav__menu header-nav__menu--social dropdown-menu dropdown-menu-end">
           {%- render 'store_social', position: 'header-desktop' -%}
         </ul>
       {% endif %}
     {% endunless %}
   </nav>
+  
+  {% if component.options.categories %}
+        {% render 'header_menu_categories',
+          categories_display: component.options.categories_display,
+          categories_title: component.options.categories_title,
+          categories_icon: component.options.categories_icon,
+          submenu_type: header-desktop.options.submenu,
+          menu_event: menu_event,
+          header_version: header_version
+        %}
+      {% endif %}
 </div>
